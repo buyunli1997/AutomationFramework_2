@@ -33,7 +33,7 @@ class TestLogin:
             time.sleep(3)
             currentTime = moment.now().strftime('%d-%m-%Y_%H-%M-%S')
             testName = utils.whoami()
-            screenshotMame = testName+ "_" + currentTime
+            screenshotMame = testName + "_" + currentTime
             allure.attach(self.driver.get_screenshot_as_png(),name=screenshotMame,attachment_type=allure.attachment_type.PNG)
             driver.get_screenshot_as_file("C:/Users/buyun/PycharmProjects/uiautomation/AutomationFramework_1/screenshots/" + screenshotMame + ".png")
             raise
