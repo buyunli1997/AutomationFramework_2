@@ -1,7 +1,0 @@
-There was an AssertionError!
-assert 'OrangeHRM' == 'Orange'
-  - Orange
-  + OrangeHRM
-  ?       +++
-I am inside finally block
-test completed
